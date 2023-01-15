@@ -1,0 +1,105 @@
+.card {
+    padding: 1em;
+    background-image: url(/imagenes/escritorio.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.herramientas {
+    flex-basis: 17rem;
+    flex-grow: 1;
+    margin: 15rem 12%;
+    align-items: center;
+    padding: 10px;
+    font-size: 80%;
+    justify-content: center;
+}
+/* .herramientas h3 {
+    flex-wrap: wrap;
+    text-align: center;
+} */
+.container {
+    width: 100%;
+    background-color: #333b50;
+    margin-bottom: 30px;
+}
+.skills {
+    text-align: right;
+    padding: 1px;
+    color: #fff;
+}
+.html {
+    background-color: #e0218a;
+    animation: fillhtml 2s forwards;
+}
+@keyframes fillhtml {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.css {
+    background-color: #e0218a;
+    animation: fillcss 2s forwards;
+}
+@keyframes fillcss {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.js {
+    background-color: #e0218a;
+    animation: filljs 2s forwards;
+}
+@keyframes filljs {
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+.ps {
+    background-color: #e0218a;
+    animation: fillps 2s forwards;
+}
+@keyframes fillps {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.ai {
+    background-color: #e0218a;
+    animation: fillai 2s forwards;
+}
+@keyframes fillai {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.id {
+    background-color: #e0218a;
+    animation: fillid 2s forwards;
+}
+@keyframes fillid {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.google {
+    background-color: #e0218a;
+    animation: fillgoogle 2s forwards;
+}
+@keyframes fillgoogle {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+.fbad {
+    background-color: #e0218a;
+    animation: fillfbad 2s forwards;
+}
+@keyframes fillfbad {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+.ingles {
+    background-color: #e0218a;
+    animation: fillingles 2s forwards;
+}
+@keyframes fillingles {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+

@@ -1,0 +1,35 @@
+/* body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    }
+     */
+    .marquee-wrapper {
+        height: 4.5rem;
+        width: 100%;
+        margin-top: 3rem;
+        overflow: hidden;
+        background-color: #9AA2B5;
+    }
+    
+    .marquee {
+        display: flex;
+        animation-name: marquee;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: left;
+        transform: translateX(0);
+        /* img {
+        padding: 1em;
+    } */
+    }
+    .marquee img {
+        height: 4.5rem;
+        width: auto;
+    }
+    
+    @keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+    }
