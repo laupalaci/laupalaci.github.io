@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+    <script src="https://kit.fontawesome.com/a05a044bb6.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/modal.js" defer></script>
     <link rel="icon" type="image/png" sizes="32x32" href="imagenes/Iso palaci traslucido derecha.png">
@@ -26,149 +27,114 @@
             <label class="icon-menu" for="menu-bar"></label>  
             <input type="checkbox" id="menu-bar">
             <nav class="menu">
-                <a href="#inicio">INICIO</a>
-                <a href="#herramientas">HERRAMIENTAS</a>
-                <a href="#galeria">PORTFOLIO</a>
-                <!-- <a href="">EXPERIENCIA</a> -->
-                <a href="#contacto">CONTACTO</a>
+                <a href="#inicio">Home</a>
+                <a href="#about-me">About me</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contacto">Contact</a>
             </nav>
         </div>
     </header>
 
-    <section id="inicio">
+    <section id="inicio"> <!--banner-->
         <img src="imagenes/autorretrato traslucido.png" alt="Autoretrato">
         <div class="contenedor">
             <h2>SOY LAUPALACÍ</h2>
-            <p>DISEÑADORA GRÁFICA</p>
+            <p>graphic designer</p>
             <p>FRONT END DEVELOPER</p>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about-me">
         <div class="contenedor">
             <img src="imagenes/Iso palaci traslucido derecha.png" alt="Isotipo Tilde">
-            <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. DELENITI ILLUM ESSE, INVENTORE UNDE REPUDIANDAE
-                LAUDANTIUM HARUM SUNT QUI ASPERIORES QUIDEM LABORUM NECESSITATIBUS, MOLESTIAE VEL ILLO IURE DUCIMUS
-                DISTINCTIO EA ITAQUE.</p>
-            <a href="docs/CV2022 A4_01.pdf" download>DESCARGAR CURRICULUM</a>
+            <p>Hi! i'm <b>laupalací</b> (a.k.a. Laura Palaci Levy).<br>
+            I'm a graphic and web designer from Argentina.<br>
+            After completing my design and digital marketing studies, I started learning to code and became passionate about it.<br>
+            I've been a design enthusiast since I can remember, and coding gave me an all-new vision of communication and user experience.<br> 
+            I'm also studying Art History at the University of Buenos Aires and practicing acrobatics.
+            </p>
+            <a href="docs/CV2022 A4_01.pdf" download>DOWNLOAD CURRICULUM</a>
         </div>
     </section>
 
-    <article class="card" id="herramientas">    
-        <div class="herramientas">
-            <h3>HERRAMIENTAS</h3>
-            <p>HTML5</p>
-            <div class="container">
-                <div class="skills html">80%</div>
-            </div>
-            <p>CSS3</p>
-            <div class="container">
-                <div class="skills css">70%</div>
-            </div>
-            <p>JAVASCRIPT</p>
-            <div class="container">
-                <div class="skills js">40%</div>
-            </div>
-            <p>PHOTOSHOP</p>
-            <div class="container">
-                <div class="skills ps">70%</div>
-            </div>
-            <p>ILLUSTRATOR</p>
-            <div class="container">
-                <div class="skills ai">80%</div>
-            </div>
-            <p>IN DESING</p>
-            <div class="container">
-                <div class="skills id">80%</div>
-            </div>
-            <p>GOOGLE AD</p>
-            <div class="container">
-                <div class="skills google">50%</div>
-            </div>
-            <p>FACEBOOK AD</p>
-            <div class="container">
-                <div class="skills fbad">50%</div>
-            </div>
-            <p>INGLES</p>
-            <div class="container">
-                <div class="skills ingles">80%</div>
-            </div>
-        </div>
-    </article>    
-   
-    <h3 class="encabezado" id="galeria">PORTFOLIO</h3> 
-    <div class="overlay">
-        <div class="slideshow">
-            <span class="btn_cerrar">&times;</span>
-            <div class="botones atras">
-                <i class="mdi mdi-arrow-left-circle-outline"></i>
-            </div>
-            <div class="botones adelante">
-                <i class="mdi mdi-arrow-right-circle-outline"></i>
-            </div>
-            <img src="imagenes/1.jpg" alt="" id="img_slideshow">
-        </div>
-    </div>
-    <section class="galeria">
-            <div class="columna">
-                <img src="imagenes/1.jpg" alt="Mock Up de diseño de camiseta Foucault" data-img-mostrar="0">
-                <img src="imagenes/2.jpg" alt="Poster grafico para pelicula Secretary" data-img-mostrar="1">
-            </div>
-            <div class="columna">
-                <img src="imagenes/3.jpg" alt="Diseño de flyer para luthier" data-img-mostrar="2">
-                <img src="imagenes/4.jpg" alt="Diseño de Curriculum Vitae" data-img-mostrar="3">
-            </div>
-            <div class="columna">
-                <img src="imagenes/5.jpg" alt="Grafica para Sonar Moda" data-img-mostrar="4">
-                <img src="imagenes/6.jpg" alt="Tarjeta herrero" data-img-mostrar="5">
+   <section class= portfolio id="portfolio">
+        <div class="contenedor-portfolio">
+            <div class="titulo">
+                <h3>portfolio</h3>
             </div> 
-   </section>    
+        
+        <div class="card">
+            <img class = "fotos" src="./imagenes/1.jpg" alt="" class="trabajo">
+            <p class="descripcion">
+                Foucault Tee
+            </p>
+            <p class="iconos">
+                <i title="Fred the Oyster, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"><img class= "icon" width="30rem" alt="Adobe Photoshop CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"></i>
+           
+                <i title="™/®Adobe Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg"><img width="30rem" alt="Adobe Illustrator CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"></i>
 
-    <!-- <section id="experiencia">
-        <img src="" alt="mi Buenos Aires Querido"> 
-        <div class="contenedor">
-            <h3>EXPERIENCIA</h3>
-            <p></p>
-        </div>
-    </section> -->
+            </p>
+        </div>       
+        
+        <div class="card">
+            <img class = "fotos" src="./imagenes/2.jpg" alt="" class="trabajo">
+            <p class="descripcion">
+                "The Secretary" Poster
+            </p>
+            <p class="iconos">
+                <i title="Fred the Oyster, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"><img class= "icon" width="30rem" alt="Adobe Photoshop CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"></i>
+           
+                <i title="™/®Adobe Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg"><img width="30rem" alt="Adobe Illustrator CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"></i>
 
-    <div class="marquee-wrapper">
-        <div class="marquee">
-            <img src="imagenes/markee/Argentina-Programa-FUENTE-www.argentina.gob_.png">
-            <img src="imagenes/markee/UBA.png">
-            <img src="imagenes/markee/umsa 2007 -2011.jpg">
-            <img src="imagenes/markee/da vinci 2019.jpg">
-            <img src="imagenes/markee/aap.jpg">
-            <img src="imagenes/markee/hycite 2017 hoy.jpg">
-            <img src="imagenes/markee/Caref 2006.jpg">
-            <img src="imagenes/markee/Club mandarine 2009-10.jpg">
-            <img src="imagenes/markee/duke energy.jpg">
-            <img src="imagenes/markee/EMC.jpg">
-            <img src="imagenes/markee/Fabric.jpg">
-            <img src="imagenes/markee/media music.jpg">
-            <img src="imagenes/markee/logo-maxirest- 2016.jpg">
-            <img src="imagenes/markee/Siranush 2015-18.jpg">
-            <img src="imagenes/markee/Sonar.jpg">
-            <img src="imagenes/markee/tbs.jpg">
-            <img src="imagenes/markee/bazterrica 2010-11.png">
-            <img src="imagenes/markee/bmc software.png">
-            <img src="imagenes/markee/cardinal.png">
-            <img src="imagenes/markee/grupolym.png">
-            <img src="imagenes/markee/peter capusotto.png">
-            <img src="imagenes/markee/sinopec.png">
-            <img src="imagenes/markee/tea connection.png">
-            <img src="imagenes/markee/vale planos.jpg">
-            <img src="imagenes/markee/avaya.jpg">
+            </p>
+        </div>    
+        
+        <div class="card">
+            <img class = "fotos" src="./imagenes/3.jpg" alt="" class="trabajo">
+            <p class="descripcion">
+                Flyer Luthier
+            </p>
+            <p class="iconos">
+                <i title="Fred the Oyster, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"><img class= "icon" width="30rem" alt="Adobe Photoshop CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"></i>
+           
+                <i title="™/®Adobe Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg"><img width="30rem" alt="Adobe Illustrator CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"></i>
+
+            </p>
         </div>
+
+        <div class="card">
+            <img class = "fotos" src="./imagenes/5.jpg" alt="" class="trabajo">
+            <p class="descripcion">
+                Sonar Moda graphic ad
+            </p>
+            <p class="iconos">
+                <i title="Fred the Oyster, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"><img class= "icon" width="30rem" alt="Adobe Photoshop CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"></i>
+           
+                <i title="™/®Adobe Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg"><img width="30rem" alt="Adobe Illustrator CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"></i>
+            </p>
+        </div>  
+        <div class="card">
+            <img class = "fotos" src="./imagenes/6.jpg" alt="" class="trabajo">
+            <p class="descripcion">
+                Blacksmith's personal card
+            </p>
+            <p class="iconos">
+                <i title="Fred the Oyster, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"><img class= "icon" width="30rem" alt="Adobe Photoshop CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"></i>
+           
+                <i title="™/®Adobe Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg"><img width="30rem" alt="Adobe Illustrator CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png"></i>
+
+            </p>
+        </div>            
     </div>
+   </section>
 
     <form action="enviar.php" method="post" id="contacto">
-        <h3>CONTACTO</h3>
-        <input type="text" name="Nombre" placeholder="NOMBRE" required>
-        <input type="text" name="Correo" placeholder="CORREO" required>
-        <input type="text" name="Telefono" placeholder="TELEFONO">
-        <textarea name="Mensaje" placeholder="ESCRIBA AQUI SU MENSAJE" required></textarea>
-        <input type="submit" value="ENVIAR" id="boton">
+        <h3>CONTACT</h3>
+        <input type="text" name="Nombre" placeholder="Name" required>
+        <input type="text" name="Correo" placeholder="Email" required>
+        <input type="text" name="Telefono" placeholder="Phone">
+        <textarea name="Mensaje" placeholder="Type your message here" required></textarea>
+        <input type="submit" value="SEND" id="boton">
 
         <div class="sociales">
             <a href="https://www.facebook.com/SuperLauryta" class="icon-facebook-rect"></a>
